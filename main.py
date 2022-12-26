@@ -24,7 +24,7 @@ print(user)
 user['is_banned'] = True
 print(user)
 
-#6 create a new user2 my copying the previous user and update the age value and username value. 
+#6 create a new user2 by copying the previous user and update the age value and username value. 
 user2 = user.copy()
 user2.update({'age': 100, 'username': 'Timbo'})
 print(user2)
